@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Borel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hero-section{
+    background-image: url(https://images.unsplash.com/photo-1603575449096-da705f622102?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFuJTIwdXNpbmclMjBjb21wdXRlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    min-height: 100vh;
+}
+.text-container{
+    color: white;
+    font-weight: normal;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 60px;
+}
+.lg-text{
+    font-size: 72px;
+    font-weight: 400;
+}
+.black-box{
+    background-color: black;
+    padding: 20px;
+}
+.black-box h2{
+    font-weight: 300;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+}
+.black-box h2 span{
+    font-weight: 400;
+    font-size: 96px;
+}
+.work{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 1);
+    transition: 0.2s ease-in-out;
+}
+.card-content{
+    padding: 10px;
+}
+.card-content h3{
+    margin-bottom: 10px;
+}
+.image-container{
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+.bottom-section{
+    display: flex;
+
+}
+.contact{
+    background-color: #515603;
+}
+.about{
+    background-color: #722300;
+}
+.contact,
+.about{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+.about h2,
+.contact h2{
+    font-size: 64px;
+    font-weight: 300;
+}
+.about p,
+.contact p{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+@media(max-width: 768px){
+    .hero-section{
+        min-height: 50vh;
+    }
+    .text-container{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .lg-text{
+        font-size: 32px;
+    }
+    .black-box h2 span{
+        font-weight: 400;
+        font-size: 32px;
+    }
+    .bottom-section{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .about h2 , .contact h2{
+        font-size: 32px;
+    }
+}

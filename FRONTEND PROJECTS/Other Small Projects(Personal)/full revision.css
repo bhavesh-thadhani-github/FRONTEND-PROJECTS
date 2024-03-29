@@ -1,0 +1,195 @@
+.container{
+    background-color: rgba(218, 217, 217, 0.4);
+    height: 90vh;
+    width: 70vw;
+    border-radius: 15px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.product{
+    background-color: yellow;
+    border-radius: 10px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/879/151/non_2x/art-of-diagonal-stripes-background-is-a-stripe-style-derived-from-india-and-has-brightly-colored-and-diagonal-lines-stripes-of-various-widths-often-used-for-wallpaper-upholstery-and-shirts-vector.jpg");
+    background-size: cover;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+}
+.prdct-img{
+    background-color: red;
+    height: 70%;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.prdct-price{
+    background-color: rgba(218, 217, 217, 0.8);
+    height: 15%;
+    width: 35%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5px;
+    text-align: center; 
+    color: black;
+    font-weight: 900;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+
+
+/*.container{
+    height: 500px;
+    background-color: #2196f3;
+    display: grid;
+    grid-template-columns: 50px 100px;
+    grid-template-rows: 70px auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.child{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    color: black;
+}*/
+
+/*@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+*/
+
+
+/*display: 
+inline
+block
+inline-block
+
+position:
+static
+relative
+absolute
+fixed
+sticky
+
+z-index
+
+background-image size: 
+cover
+contain 
+auto
+
+flexbox:
+display:flex
+flex-direction: row
+justify-content
+align-items
+align-content
+flex-wrap
+flex-grow
+flex-shrink
+
+media:
+@media(min-width: 600px){
+    div{
+        background-color: red
+    }
+}
+div:hover{
+
+}
+div:active{
+
+}
+
+transition:
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: steps(5);
+transition-timing-function: ease-in;
+transition-delay: 1s;
+
+transition shorthand:
+transition: font-size 2s ease-in-out 0.2s;
+transition: all 2s ease-in 1s;
+
+transform:
+/*transform: rotate(45deg);
+rotate: x 180deg;
+transform: scale(2,1);
+transform: translateX(200px);
+transform: translate(100px,80px);
+transform: skew(30deg);
+
+keyframe+animation:
+@keyframes colorAnimate{
+    from { background-color: aquamarine; }
+    to{ background-color: red; }
+}
+@keyframes colorAnimate {
+    0%{
+        left: 0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+animation:
+animation-name: colorAnimate;
+animation-duration: 2s;
+animation-timing-function: ease-in;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+
+animation shorthand:
+animation: colorAnimate 2s ease-in 0s infinite normal;
+
+grid:
+
+container properties-
+grid-template-columns: 
+grid-template-rows:
+row-gap: 
+column-gap: 
+justify-items:
+align-items: 
+place-items:
+
+item properties-
+grid-column-start:
+grid-column-end: 
+grid-column: 1 / span 3
+justify-self: 
+align-self: 
+place-self: 
+*/
+
+
+
