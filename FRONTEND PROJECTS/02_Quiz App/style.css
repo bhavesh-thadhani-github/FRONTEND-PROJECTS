@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    /* height: 100vh; */
+    background-color: #010203;
+    display: flex;
+    /* position: relative;
+    top: 0;
+    left: 0; */
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+#nav-bar{
+    width: 70%;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    border: 3px solid #fcab05;
+    /* border-image: linear-gradient(to right, #ffd700, #ffbf00, #ffc800, #ffcc00, #f0c14b, #ffbf00, #ffd700) 1; */
+    /* animation: moveGradient 10s linear infinite;  */
+    border-radius: 30px;
+}
+/* @keyframes moveGradient { */
+    /* 0% { border-image: linear-gradient(to right, #ffd700, #ffbf00, #ffc800, #ffcc00, #f0c14b, #ffbf00, #ffd700) 1; } Initial gradient */
+    /* 100% { border-image: linear-gradient(to right, #ffd700, #ffbf00, #ffc800, #ffcc00, #f0c14b, #ffbf00, #ffd700) 1; } Final gradient */
+/* } */
+#nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: #F5BD02;
+}
+#nav-bar ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+#nav-bar ul li::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px; 
+    background-color: #fff; 
+    margin-top: 2px;
+    transition: width 0.3s ease;
+}
+#nav-bar ul li:hover::after{
+    width: 100%;
+}
+#main-section{
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    box-sizing: border-box;
+}
+#heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+#main-section h3, h2{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+#main-section h2{
+    margin-bottom: 10px;
+}
+
+
+#topics form{
+    background-color: #010203;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.topic{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 20%;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    border: 3px solid;
+    border-radius: 10px;
+}
+#science{
+    font-weight: bold;
+    background-color: #cce6ff;
+    border-color: #0066cc ;
+    color: #0066cc;
+}
+#technology{
+    font-weight: bold;
+    background-color: #ccffcc;
+    border-color: #009900;
+    color: #009900;
+}
+#space{
+    font-weight: bold;
+    background-color: #e6ccff;
+    border-color: #6600cc ;
+    color: #6600cc;
+}
+#history{
+    font-weight: bold;
+    background-color: #ffffcc;
+    border-color: #999900 ;
+    color: #999900;
+}
+#business{
+    font-weight: bold;
+    background-color: #ffcccc;
+    border-color: #cc0000 ;
+    color: #cc0000;
+}
+#submit-btn{
+    cursor: pointer;
+    margin: 20px 0;
+    background-color: #fcab05;
+    color: #010203;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    width: 125px;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+#main-question{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#center-place{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    top: 150px;
+    left: 350px; */
+}
+#box{
+    background-color: #010203;
+    width: 50%;
+    height: 65%;
+    border: 3px solid gold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#div-question{
+    /* font-size: 20px; */
+    /* margin: 20px 0; */
+    margin-bottom: 20px;
+    color: white;
+}
+#question{
+    font-size: 20px;
+    text-align: center;
+}
+.div-option{
+    /* background-color: yellow; */
+    cursor: pointer;
+    width: 70%;
+    height: 10%;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+#next-prev{
+    display: flex;
+    justify-content: space-between;;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+.btn{
+    /* margin: 10px 0; */
+    position: absolute;
+    bottom: 15px;
+    padding: 5px;
+    font-size: 13.5px;
+    font-weight: bold;
+    color: #010203;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+}
+#next{
+    right: 50px;
+    cursor: pointer;
+}
+#previous{
+    left: 50px;
+    cursor: pointer;
+}
+ #q-num-div{
+    color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+#others{
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+    position: absolute;
+    top: 25px;
+    left: 1125px;
+    /* right: 125px; */
+}
+.elements{
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#start-btn{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #010203;
+    background-color: gold;
+    cursor: pointer;
+}
+#timer{
+    background-color: white;
+    border: 1px solid #010203;
+    padding: 10px;
+    border-radius: 5px;
+    color: #010203;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="questions_style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    </style>
+</head>
+<body>
+    
+    <div id="main-question">
+        <div id="others">
+            <div id="start-div" class="elements">
+                <button id="start-btn">Start</button>
+            </div>
+            <div id="timer" class="elements">Timer 05:00</div>
+        </div>
+        <div id="center-place">
+            <div id="box">
+                <div id="q-num-div">
+                    <p id="question-number">1 of 10</p>
+                </div> 
+                <div id="div-question">
+                    <p id="question"></p>
+                </div>
+    
+                <div class="div-option">
+                    <label for="" id="first"></label><i class="fa-regular fa-circle iconCircle"></i>
+                </div>
+                <div class="div-option">
+                    <label for="" id="second"></label><i class="fa-regular fa-circle iconCircle"></i>
+                </div>
+                <div class="div-option">
+                    <label for="" id="third"></label><i class="fa-regular fa-circle iconCircle"></i>
+                </div>
+                <div class="div-option">
+                    <label for="" id="fourth"></label><i class="fa-regular fa-circle iconCircle"></i>
+                </div>
+    
+                <div id="next-prev">
+                    <button id="previous" class="btn">Previous</button>
+                    <button id="next" class="btn">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8a47843569.js" crossorigin="anonymous"></script>
+    <script src="questions_logic.js"></script>
+</body>
+</html>
